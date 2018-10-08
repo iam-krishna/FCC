@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="G:\Atom Workspace\mysurveystyle.css"
+<body background-color: black>
+<div class="content">
+    <div class="card">
+        <h1 id="title">Feedback on Me</h1>
+        <p id="description">Tell me something about me</p>
+        <div>
+            <form id="survey-form">
+                <div>
+                  <label id="name-label">Name&nbsp</label>
+                    <input required type="text" name="name" id="name" placeholder="Name">
+                </div><br>
+                <div>
+                    <labe id="email-label">Email&nbsp</label>
+                    <input required type="email" name="email" id="email" placeholder="Email">
+                </div><br>
+                <div>
+                    <label id="number-label">Age&nbsp&nbsp&nbsp</label>
+                    <input  type="number" min="1" max="110" name="age" id="number" placeholder="Age">
+                  </div><br>
+
+                <div>
+                  <label id="dropdown-label">Are you?&nbsp</label>
+                <select name="type" id="dropdown" placeholder="Are you">
+                  <option value="stranger">Stranger</option>
+                  <option value="friend">Friend</option>
+                  <option value="workmate">Work Mate</option>
+                </select>
+                </div><br>
+                <h4>How am i?</h4>
+  <div>
+  <label>Good
+     <input type="radio" id="Good" name="option" value="1" checked>
+ </label>
+ <label>Bad
+     <input type="radio" id="Bad"  name="option" value="2">
+  </label>
+  </div>
+  <br>
+<div>
+
+<label>
+<input type="checkbox" id="checkbox">Kind
+</label>
+<label>
+<input type="checkbox" id="checkbox">Helpful
+</label>
+<label>
+<input type="checkbox" id="checkbox">Never met in-person
+</label>
+</div><br>
+                <div id="value-div">
+                    <textarea type="text" id="text-area" placeholder="Write the reason"></textarea>
+                    <label for="text-area"></label>
+                </div>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>
+</body>

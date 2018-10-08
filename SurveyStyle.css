@@ -1,0 +1,19 @@
+body {
+  font-family:"segoe ui emoji";
+  background : #eee
+}
+form {
+  align-content: center;
+}
+.content {
+    max-width: 350px;
+
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border: 50px;
+    border-radius: 10px;
+    border-color: blue;
+    text-align: center;
+    float: center;
+  }
